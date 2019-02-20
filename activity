@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+printf("Welcome to Git Hub");
+return 0;
+}
