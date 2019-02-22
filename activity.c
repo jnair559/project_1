@@ -14,10 +14,10 @@ int main()
     int a=1;
 
     p1=a*dia_1;//calculating perimeter
-    printf("Perimeter1=%.2f \n",p1);
+    printf("Perimeter1=%.2f \n",P1);
 
     p2=a*dia_2;
-    printf("Perimeter2=%.2f \n",p2);
+    prinf("Perimeter2=%.2f \n",p2);
 
     ratio=p1/p2;
     printf("Ratio=%.1f",ratio);
