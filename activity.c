@@ -1,40 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int rpm();
-float p1,p2;
-int rpm1,rpm2;
-float ratio;
-int c=10;
-
 int main()
 {
-
-    int dia_1=3;//diameter of wheels in meter
-    int dia_2=2;
-    a=3.14;
-    
-
-    p1=a*dia_1;//calculating perimeter
-    printf("Perimeter1=%.2f \n",P1);
-
-    p2=a*dia_2;
-    
-    ptf("Perimeter2=%.2f \n",p2);
-
-    ratio=p1/p2;
-    printf("Ratio=%.1f",ratio);
-    rpm();
-
-}
- rpm()
-{
-    int speed1=1000;//speed of large wheel 60kmph=1000mps
-    int speed2=2000;
-
-    rpm1= (ratio*speed1)/p1;
-    printf("RPM1=%d",rpm1);
-    printf("RPM2=%d",rpm2);
-    rpm2= (ratio*speed2)/p2;
-
+    int p=0;
+    int sum;
+    int a=10;
+    int b=30;
+    int *x;
+    sum=a+b;
+    *x=sum;
+    return 0;
 }
