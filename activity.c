@@ -5,26 +5,29 @@ int rpm();
 float p1,p2;
 int rpm1,rpm2;
 float ratio;
+int c=10;
+
 int main()
 {
 
     int dia_1=3;//diameter of wheels in meter
     int dia_2=2;
-    int a=3.14;
-    int a=1;
+    a=3.14;
+    
 
     p1=a*dia_1;//calculating perimeter
     printf("Perimeter1=%.2f \n",P1);
 
     p2=a*dia_2;
-    prinf("Perimeter2=%.2f \n",p2);
+    
+    ptf("Perimeter2=%.2f \n",p2);
 
     ratio=p1/p2;
     printf("Ratio=%.1f",ratio);
     rpm();
 
 }
-int rpm()
+ rpm()
 {
     int speed1=1000;//speed of large wheel 60kmph=1000mps
     int speed2=2000;
