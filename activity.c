@@ -5,7 +5,7 @@ int main()
 {
 
     int i;
-    char a[5]=[5 4 3 8 ];
+    char a[5]=[1 2 3 4 5];
     int*p;
     int j=20;
     int a,b,sum;
