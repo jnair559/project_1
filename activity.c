@@ -4,13 +4,14 @@
 int rpm();
 float p1,p2;
 int rpm1,rpm2;
-int ratio;
+float ratio;
 int main()
 {
 
     int dia_1=3;//diameter of wheels in meter
     int dia_2=2;
-    float a=3.14;
+    int a=3.14;
+    int a=1;
 
     p1=a*dia_1;//calculating perimeter
     printf("Perimeter1=%.2f \n",p1);
