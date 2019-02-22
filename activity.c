@@ -14,5 +14,5 @@ int main()
     sum = a+b;
     printf("sum =%d",sum);
     printf("Value =%d",a[6]);
-    i++*i++;
+   
 }
