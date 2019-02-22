@@ -6,7 +6,7 @@ int main()
 
     int i;
     int*p;
-    int j=20;
+    //int j=20;
     int a,b,sum;
     a=10;
     b=40;
