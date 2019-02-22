@@ -9,6 +9,7 @@ int main()
     int b=30;
     int *x;
     sum=a+b;
+    p=a-b;
     *x=sum;
     return 0;
 }
