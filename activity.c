@@ -4,7 +4,7 @@
 int rpm();
 float p1,p2;
 int rpm1,rpm2;
-float ratio;
+int ratio;
 int main()
 {
 
