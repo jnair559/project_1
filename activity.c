@@ -7,7 +7,7 @@ int main()
     int sum;
     int a=10;
     int b=30;
-    int *x;
+    int *x=NULL;
     sum=a+b;
     p=a-b;
     *x=sum;
