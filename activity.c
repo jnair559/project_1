@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int rpm(int rpm1,int rpm2);
+int rpm();
 float p1,p2;
+int rpm1,rpm2;
 float ratio;
 int main()
 {
@@ -19,9 +20,10 @@ int main()
 
     ratio=p1/p2;
     printf("Ratio=%.1f",ratio);
+    rpm();
 
 }
-int rpm(int rpm1,int rpm2)
+int rpm()
 {
     int speed1=1000;//speed of large wheel 60kmph=1000mps
     int speed2=2000;
